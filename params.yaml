@@ -1,0 +1,10 @@
+data:
+  csv_file_path: ./dataset/imdb-dataset.csv
+  test_set_ratio: 0.3
+  train_csv_save_path: ./dataset/train.csv
+  test_csv_save_path: ./dataset/test.csv
+
+features:
+  vectorizer: count-vectorizer
+  train_features_save_path: ./dataset/train.joblib
+  test_features_save_path: ./dataset/test.joblib

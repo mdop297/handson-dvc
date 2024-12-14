@@ -80,3 +80,6 @@ This method will add .dvc file into target directory
 ```
 dvc import git@github.com:mdop297/handson-dvc.git ./images
 ```
+
+## DVC Pipeline
+
