@@ -82,4 +82,7 @@ dvc import git@github.com:mdop297/handson-dvc.git ./images
 ```
 
 ## DVC Pipeline
+prepare the code for machine learning pipeline then create params.yaml to store parameters.
+Then we need to have a dvc.yaml file to track the pipeline with dvc. See dvc.yaml.
 
+how to track archive directory by dvc to push it to gdrive? Tried, but got overlapping error. 

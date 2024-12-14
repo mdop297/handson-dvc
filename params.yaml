@@ -5,7 +5,7 @@ data:
   test_csv_save_path: ./archive/test.csv
 
 features:
-  vectorizer: count-vectorizer
+  vectorizer: tfidf-vectorizer
   train_features_save_path: ./archive/train.joblib
   test_features_save_path: ./archive/test.joblib
 
